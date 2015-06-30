@@ -2,8 +2,6 @@
 
 angular.module('weatherApp.services', ['ngResource'])
 
-  .value('version', '0.1.4')
-
   .value('exampleLocations', ['Seattle', 'New York', 'San Diego', 'Boston', 'London', 'Cape Town'])
 
   .value('stormLocations', ['Vegas', 'Toronto', 'Christmas Island'])
