@@ -1,0 +1,25 @@
+{
+  "name": "weatherapp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/opiepj/weatherapp",
+  "description": "Angular weather app",
+  "main": "app/index.html",
+  "keywords": [
+    "Angular"
+  ],
+  "authors": [
+    "Patrick Opie"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  "bootstrap": "~3.0.0",
+  "iso-3166-country-codes-angular": "~1.0.2"
+  }
+}
