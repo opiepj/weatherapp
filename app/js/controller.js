@@ -3,7 +3,7 @@
 angular.module('weatherApp.controllers', [])
 
 	.controller('weatherCtrl',
-		['$score', 'weatherMap', 'exampleLocations', 'stormLocations', 'ISO3166',
+		['$scope', 'weatherMap', 'exampleLocations', 'stormLocations', 'ISO3166',
 			function($scope, weatherMap, exampleLocations, stormLocations, ISO3166) {
 
 		$scope.message = '';
